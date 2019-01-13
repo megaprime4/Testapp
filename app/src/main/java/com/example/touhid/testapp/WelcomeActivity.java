@@ -19,7 +19,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 } finally {
-                    Intent mainIntent = new Intent(WelcomeActivity.this, MainActivity.class);
+                    Intent mainIntent = new Intent(WelcomeActivity.this, StartPageActivity.class);
                     startActivity(mainIntent);
                 }
             }

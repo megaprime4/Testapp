@@ -113,7 +113,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         @Override
                         public Map<String, String> getHeaders() throws AuthFailureError {
                             Map<String, String> headers = new HashMap<String, String>();
-                            headers.put("User-Agent", "Testapp");  ////??????????????????????????????whats this??????
+                            headers.put("User-Agent", "Testapp");  ////security purpose
                             return headers;
                         }
                     };

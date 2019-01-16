@@ -23,6 +23,8 @@ public class StartPageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //go to sign in page
+                Intent loginIntent = new Intent(StartPageActivity.this, LoginActivity.class);
+                startActivity(loginIntent);
             }
         });
 

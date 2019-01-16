@@ -75,10 +75,9 @@ public class RegistrationActivity extends AppCompatActivity {
                             new Response.Listener<String>() {
                                 @Override
                                 public void onResponse(String response) {
-                                    if (response.contains("Please check your e-mail!") || response.contains("E-mail already exists!")) {
-
+                                    if(!response.equals("")) {
+                                        Toast.makeText(RegistrationActivity.this, response, Toast.LENGTH_SHORT).show(); ///printing php echo
                                     }
-                                    Toast.makeText(RegistrationActivity.this, response, Toast.LENGTH_SHORT).show();
                                 }
                             }, new Response.ErrorListener() {
                         @Override

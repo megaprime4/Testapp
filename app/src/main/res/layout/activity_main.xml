@@ -7,11 +7,55 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/mainName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Main activity"
-        android:textAlignment="center"
-        android:textSize="30sp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mainID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mainName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mainEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mainName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mainPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainEmail"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mainBVC_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mainName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="203dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mainPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:text="TextView" />
 </RelativeLayout>
